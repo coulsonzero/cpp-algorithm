@@ -11,6 +11,6 @@ project(cpp_algorithm)
 set(CMAKE_CXX_STANDARD 20)
 
 #add_executable(cpp_algorithm main.cpp nowcoder/JZ3-数组中重复的数字.h leetcode/array/LC0136-只出现一次的数字.h)
-add_executable(${PROJECT_NAME} sololearn/password-validation.cpp leetcode/LCOF/listnode/JZ0006.reverse-print-listnode.cpp leetcode/LCOF/listnode/listnode.h leetcode/LCOF/vector/JZ0003.duplicate-num-array.cpp leetcode/LCOF/listnode/JZ0024.reverse-listnode.cpp)
+add_executable(${PROJECT_NAME} leetcode/2475.number-of-unequal-triplets-in-array.cpp)
 
 
