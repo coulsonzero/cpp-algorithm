@@ -1,23 +1,29 @@
 #include <iostream>
-#include "library/array.h"
-#include "leetcode/2465.number-of-distinct-averages.h"
+#include <unordered_map>
+#include <vector>
 
 using namespace std;
+
+int singleNumber(vector<int>& nums) {
+    unordered_map<int, int> map;
+    for (int i = 0; i < nums.size(); ++i) {
+        map[nums[i]]++;
+    }
+
+    for (auto &iter : map) {
+        if (iter.second == 1)
+            return iter.first;
+    }
+    return -1;
+}
 
 
 int main() {
     std::cout << "========== Solution ==========" << std::endl;
-    auto *ptr = new Solution();
 
+    vector<int> nums = {1,2,4,1,2};
+    cout << singleNumber(nums) << endl;
 
-    vector<int> nums = {9,5,7,8,7,9,8,2,0,7};
-    vector<int> nums2 = {4,1,4,0,3,5};
-    auto res = ptr->distinctAverages(nums);   // 5
-    auto res2 = ptr->distinctAverages(nums2); // 2
-
-
-
-    cout << res2 << endl;
     std::cout << "==========   End    ==========" << std::endl;
     return 0;
 }
