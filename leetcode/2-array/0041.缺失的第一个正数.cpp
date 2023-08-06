@@ -1,6 +1,6 @@
 /*
  * Leetcode 41. First Missing Positive
- * Given an unsorted integer array nums, return the smallest missing positive integer.
+ * Given an unsorted integer 2-array nums, return the smallest missing positive integer.
  *
  * for example:
  * Input: nums = [1,2,0]         Output: 3

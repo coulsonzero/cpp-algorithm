@@ -10,7 +10,7 @@ public:
 
 class Solution {
 public:
-    /* hashmap */
+    /* 3-hashmap */
     int singleNumber(vector<int>& nums) {
         unordered_map<int, int> map;
         for (int i = 0; i < nums.size(); ++i) {

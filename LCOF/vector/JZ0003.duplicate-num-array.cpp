@@ -8,7 +8,7 @@
 #include <vector>
 using namespace std;
 
-// method-1: sort array
+// method-1: sort 2-array
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -21,7 +21,7 @@ public:
 };
 
 
-// method-2: hashmap
+// method-2: 3-hashmap
 /*
 #include <unordered_map>
 using namespace std;

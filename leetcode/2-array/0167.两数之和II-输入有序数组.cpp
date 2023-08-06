@@ -1,5 +1,5 @@
 /**
- * [两数之和2](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/)
+ * [两数之和2](https://leetcode.cn/problems/two-sum-ii-input-2-array-is-sorted/)
  * 输入：numbers = [2,7,11,15], target = 9
  * 输出：[1,2]
  * 解释：2 与 7 之和等于目标数 9 。因此 index1 = 1, index2 = 2 。返回 [1, 2]

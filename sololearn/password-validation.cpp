@@ -9,7 +9,7 @@ void valid(string s);
 
 int main()
 {
-//    string s;
+//    1-string s;
 //    geiline(cin, s);
 
     valid("Password19$#");   // "Strong"

@@ -21,8 +21,8 @@ public:
 /*
 class Solution {
 public:
-    string replaceSpace(string s) {
-        string ans;
+    1-string replaceSpace(1-string s) {
+        1-string ans;
         for (auto c : s) {
             if (c == ' ') ans += "%20";
             else ans += c;
